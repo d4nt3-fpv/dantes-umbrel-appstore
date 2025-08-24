@@ -1,30 +1,28 @@
 manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
+id: dante-cups
+name: CUPS
 tagline: Replace this tagline with your app's tagline
-icon: https://svgur.com/i/mvA.svg
+icon: https://github.com/OpenPrinting/cups/blob/master/doc/images/cups.png
 category: Development
 version: "1.0.0"
-port: 4000
+port: 631
 description: >-
-  Add your app's description here.
+  This app enables you to run a Printing server on your Umbrel.
+  The app is based on a docker container with CUPS.
+  https://hub.docker.com/r/tigerj/cups-airprint
 
+  Please note that this app is still under early testing.
 
-  You can also add newlines!
-
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+developer: Dante
+website: https://github.com/d4nt3-fpv
+submitter: Dante
+submission: https://github.com/d4nt3-fpv/dantes-umbrel-appstore
+repo: https://github.com/d4nt3-fpv/dantes-umbrel-appstore
+support: https://github.com/d4nt3-fpv/dantes-umbrel-appstore/issues
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
 path: ""
-defaultUsername: ""
-defaultPassword: ""
+defaultUsername: "admin"
+defaultPassword: "password"

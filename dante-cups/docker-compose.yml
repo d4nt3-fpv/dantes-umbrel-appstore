@@ -2,7 +2,7 @@ version: "3.8"
 services:
   cups:
     image: olbat/cupsd:stable-2024-01-19  # stabile Version mit Druckertreibern
-    container_name: cups
+    container_name: CUPS
     privileged: true
     volumes:
       - "/dev/bus/usb:/dev/bus/usb"        # USB-Zugriff als Volume

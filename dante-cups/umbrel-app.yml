@@ -20,6 +20,9 @@ submission: https://github.com/d4nt3-fpv/dantes-umbrel-appstore
 repo: https://github.com/d4nt3-fpv/dantes-umbrel-appstore
 support: https://github.com/d4nt3-fpv/dantes-umbrel-appstore/issues
 gallery:
+  - https://www.tu-chemnitz.de/urz/archiv/kursunterlagen/rsrc/CUPS-Connections.png
+  - https://opensource.com/sites/default/files/cups-web-ui-share_0.jpeg
+  - https://openprinting.github.io/assets/images/cups-new-architecture.png
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []

@@ -9,7 +9,7 @@ port: 631
 description: >-
   This app enables you to run a Printing server on your Umbrel.
   The app is based on a docker container with CUPS.
-  https://hub.docker.com/r/tigerj/cups-airprint
+  https://hub.docker.com/r/olbat/cupsd
 
   Please note that this app is still under early testing.
 

@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: dante-cups
 name: CUPS
-tagline: Replace this tagline with your app's tagline
+tagline: Run a printer server in your Umbrel
 icon: https://raw.githubusercontent.com/OpenPrinting/cups/refs/heads/master/doc/images/cups.svg
 category: Development
 version: "1.0.0"
@@ -24,7 +24,7 @@ gallery:
   - https://opensource.com/sites/default/files/cups-web-ui-share_0.jpeg
   - https://openprinting.github.io/assets/images/cups-new-architecture.png
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  NOT WORKING RIGHT NOW
 dependencies: []
 path: ""
 defaultUsername: "admin"

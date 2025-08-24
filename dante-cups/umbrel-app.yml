@@ -24,8 +24,8 @@ gallery:
   - https://opensource.com/sites/default/files/cups-web-ui-share_0.jpeg
   - https://openprinting.github.io/assets/images/cups-new-architecture.png
 releaseNotes: >-
-  NOT WORKING RIGHT NOW
+  Beta release
 dependencies: []
 path: ""
-defaultUsername: "admin"
-defaultPassword: "password"
+defaultUsername: "print"
+defaultPassword: "print"

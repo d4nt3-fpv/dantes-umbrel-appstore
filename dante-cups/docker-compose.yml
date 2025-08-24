@@ -1,14 +1,9 @@
-version: "3.8"
 services:
-  cups:
-    image: olbat/cupsd:stable-2024-01-19  # stabile Version mit Druckertreibern
-    container_name: CUPS
-    privileged: true
-    volumes:
-      - "/dev/bus/usb:/dev/bus/usb"        # USB-Zugriff als Volume
-      - "/run/dbus:/run/dbus"
-      - "./data/etc/cups/cupsd.conf:/etc/cups/cupsd.conf:ro"
-      - "./data/etc/cups/printers.conf:/etc/cups/printers.conf:ro"
+  cupsd:
     ports:
-      - "631:631/tcp"
-    restart: "always"
+      - 631:631
+    volumes:
+      - /var/run/dbus:/var/run/dbus
+    container_name: cupsd
+    image: olbat/cupsd
+networks: {}

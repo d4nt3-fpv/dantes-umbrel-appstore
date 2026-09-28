@@ -4,12 +4,14 @@ services:
     container_name: cups
     restart: always
     ports:
-      - 631:631
+      - "631:631"
     volumes:
       - /etc/cups:/etc/cups
       - /run/udev:/run/udev:ro
       - /run/dbus:/run/dbus:ro
     environment:
       - ADMIN_PASSWORD=12345678
+      - CUPS_ENCRYPTION=Never
     privileged: true
+
 networks: {}

@@ -27,5 +27,5 @@ releaseNotes: >-
   Beta release
 dependencies: []
 path: ""
-defaultUsername: "print"
-defaultPassword: "print"
+defaultUsername: "admin"
+defaultPassword: "12345678"

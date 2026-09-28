@@ -1,3 +1,15 @@
+
+# Dantes Crazy Umbrel Community App Store
+
+This is my personal Umbrel app store.
+I used it to install CUPS on my umbrel.
+If you want to load your own app (docker) to your umbrel, feel free to upload it here and use my app store.
+This app store is a playground for testing and should not be used in production.
+Have fun :)
+
+# I used the official Template for setting up the App Store
+
+
 ## Umbrel Community App Store Template
 
 This repository is a template to create an Umbrel Community App Store. These additional app stores allow developers to distribute applications without submitting to the [Official Umbrel App Store](https://github.com/getumbrel/umbrel-apps).

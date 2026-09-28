@@ -1,9 +1,15 @@
 services:
-  cupsd:
+  cups:
+    image: cateim/cups:latest
+    container_name: cups
+    restart: always
     ports:
       - 631:631
     volumes:
-      - /var/run/dbus:/var/run/dbus
-    container_name: cupsd
-    image: olbat/cupsd
+      - /etc/cups:/etc/cups
+      - /run/udev:/run/udev:ro
+      - /run/dbus:/run/dbus:ro
+    environment:
+      - ADMIN_PASSWORD=12345678
+    privileged: true
 networks: {}
